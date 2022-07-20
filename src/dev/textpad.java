@@ -1337,8 +1337,8 @@ public class textpad extends JFrame implements ActionListener,DocumentListener
                " 原编写者：沐伊科技 \n"+
                " 编写时间：2016-06-09                          \n"+
                " 改编：谷雨暮歌\n"+
-               " 时间：2022-07-15\n"+
-               " 此版本为开源版本，发布版会将此行更换为开源链接，此外无变化\n"+
+               " 时间：2022-07-20\n"+
+               " 源码链接：https://github.com/CurledCyan-Gradus/YSP_Previewer\n"+
                "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&\n",  
                "记事本",JOptionPane.INFORMATION_MESSAGE);  
        }//关于结束  
@@ -1523,6 +1523,7 @@ public class textpad extends JFrame implements ActionListener,DocumentListener
                 avg=null;
                 name=null;
             }
+            name = null;
         }else{
             String[] nameorigin = removeEmpty(textunc.split(":"));
             word = nameorigin[nameorigin.length-1];
